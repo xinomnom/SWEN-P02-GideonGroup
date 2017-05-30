@@ -1,0 +1,40 @@
+c:\users\haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\bin\Debug\SWENWindowForm.exe.config
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\bin\Debug\SWENWindowForm.exe
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\bin\Debug\SWENWindowForm.pdb
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form1.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Properties.Resources.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.csproj.GenerateResource.Cache
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.exe
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.pdb
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form2.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form4.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form5.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form6.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form7.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form8.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form3.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Resources.Form9.resources
+C:\Users\Haikang\documents\visual studio 2015\Projects\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form9.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\bin\Debug\SWENWindowForm.exe.config
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.exe
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.pdb
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\bin\Debug\SWENWindowForm.exe
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\bin\Debug\SWENWindowForm.pdb
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.csprojResolveAssemblyReference.cache
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form1.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form11.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form12.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form13.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form14.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form15.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form2.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form3.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form4.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form5.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form6.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form7.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form8.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Form9.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Properties.Resources.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.Resources.Form9.resources
+C:\Users\dell\Downloads\Semester 3.1\Software Engineering\Assignement\Assignment 3\SWENWindowForm\SWENWindowForm\obj\Debug\SWENWindowForm.csproj.GenerateResource.Cache
