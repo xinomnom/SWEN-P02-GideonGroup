@@ -28,7 +28,7 @@ namespace SWENWindowForm
                 if (MessageBox.Show("Are you sure you want to update this record", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     con.Open();
-                    string query = "UPDATE Staff SET Staff_FirstName = '" + sFirstName.Text + "',Staff_LastName='" + sLastName.Text + "',Staff_Address='" + vAddress.Text + "',Staff_ContactNumber='" + iContactNum.Text + "',Staff_NRIC='" + vNRIC.Text + "',Staff_DOB='" + vDOB.Text + "',Staff_Salary='" + vSalary.Text + "',Staff_BankNo='" + vBankAccount.Text + "',Staff_PostalCode='" + iPostalCode.Text + "',Staff_Country='" + sCountry.Text + "',Staff_Email='" + vEmail.Text + "',Staff_Duty='" + sDuty.Text + "' WHERE Staff_ID='" + textBox13.Text + "' ";
+                    string query = "UPDATE Staff SET Staff_FirstName = '" + sFirstName.Text + "',Staff_LastName='" + sLastName.Text + "',Staff_Address='" + vAddress.Text + "',Staff_ContactNumber='" + iContactNum.Text + "',Staff_NRIC='" + vNRIC.Text + "',Staff_DOB='" + dateTimePicker1.Text + "',Staff_Salary='" + vSalary.Text + "',Staff_BankNo='" + vBankAccount.Text + "',Staff_PostalCode='" + iPostalCode.Text + "',Staff_Country='" + sCountry.Text + "',Staff_Email='" + vEmail.Text + "',Staff_Duty='" + sDuty.Text + "' WHERE Staff_ID='" + textBox13.Text + "' ";
                     SqlDataAdapter SDA = new SqlDataAdapter(query, con);
                     SDA.SelectCommand.ExecuteNonQuery();
                     con.Close();
@@ -57,7 +57,7 @@ namespace SWENWindowForm
                 MessageBox.Show("Double click on the existing rows you wish to update/delete", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-            if (vDOB.Text.Trim() == string.Empty)
+            if (dateTimePicker1.Text.Trim() == string.Empty)
             {
                 MessageBox.Show("Double click on the existing rows you wish to update/delete", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
@@ -122,13 +122,13 @@ namespace SWENWindowForm
                 MessageBox.Show("Double click on the existing rows you wish to update/delete", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
+           
 
-          
 
 
             return true;
         }
-
+      
 
 
 
@@ -144,7 +144,7 @@ namespace SWENWindowForm
             vAddress.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
             iContactNum.Text = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
             vNRIC.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
-            vDOB.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
+            dateTimePicker1.Text = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
             vSalary.Text = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
             vBankAccount.Text = dataGridView1.SelectedRows[0].Cells[8].Value.ToString();
             iPostalCode.Text = dataGridView1.SelectedRows[0].Cells[9].Value.ToString();
@@ -210,13 +210,23 @@ namespace SWENWindowForm
         private void button5_Click(object sender, EventArgs e)//SearchButton
         {
 
-           
-            DataTable dt = new DataTable();
-            SqlDataAdapter SDA = new SqlDataAdapter("SELECT * FROM Staff where Staff_ID =" + int.Parse(textBox13.Text), con);
-            SDA.Fill(dt);
-            dataGridView1.DataSource = dt;
+            if (SearchValidate())
+            {
+                DataTable dt = new DataTable();
+                SqlDataAdapter SDA = new SqlDataAdapter("SELECT * FROM Staff where Staff_ID =" + int.Parse(textBox13.Text), con);
+                SDA.Fill(dt);
+                dataGridView1.DataSource = dt;
+            }
         }
-
+        private bool SearchValidate()
+        {
+            if (textBox13.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("Please enter a value into the search box", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
         private void textBox13_KeyPress(object sender, KeyPressEventArgs e)//search
         {
             char ch = e.KeyChar;
@@ -311,6 +321,17 @@ namespace SWENWindowForm
             ss.Show();
         }
 
-       
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+                e.Handled = true;
+            base.OnKeyPress(e);
+            MessageBox.Show("Only alphabets are allowed");
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

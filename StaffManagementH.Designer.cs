@@ -48,7 +48,6 @@
             this.iPostalCode = new System.Windows.Forms.TextBox();
             this.vAddress = new System.Windows.Forms.TextBox();
             this.iContactNum = new System.Windows.Forms.TextBox();
-            this.vDOB = new System.Windows.Forms.TextBox();
             this.vNRIC = new System.Windows.Forms.TextBox();
             this.sLastName = new System.Windows.Forms.TextBox();
             this.sFirstName = new System.Windows.Forms.TextBox();
@@ -90,6 +89,7 @@
             this.sWENDatabaseDataSet1 = new SWENWindowForm.SWENDatabaseDataSet1();
             this.staffTableAdapter1 = new SWENWindowForm.SWENDatabaseDataSet1TableAdapters.StaffTableAdapter();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.staffBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sWENDatabaseDataSet)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -486,15 +486,6 @@
             this.iContactNum.TabIndex = 46;
             this.iContactNum.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // vDOB
-            // 
-            this.vDOB.Location = new System.Drawing.Point(540, 82);
-            this.vDOB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.vDOB.Name = "vDOB";
-            this.vDOB.Size = new System.Drawing.Size(268, 26);
-            this.vDOB.TabIndex = 45;
-            this.vDOB.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
             // vNRIC
             // 
             this.vNRIC.Location = new System.Drawing.Point(540, 25);
@@ -583,6 +574,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.button4);
@@ -596,7 +588,6 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.sCountry);
-            this.groupBox2.Controls.Add(this.vDOB);
             this.groupBox2.Controls.Add(this.label25);
             this.groupBox2.Controls.Add(this.textBox14);
             this.groupBox2.Controls.Add(this.label23);
@@ -877,6 +868,17 @@
             this.linkLabel1.Text = "Help";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "dd-MM-yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(540, 83);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(144, 26);
+            this.dateTimePicker1.TabIndex = 71;
+            this.dateTimePicker1.Value = new System.DateTime(2017, 6, 3, 0, 0, 0, 0);
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
             // StaffManagementH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -932,7 +934,6 @@
         private System.Windows.Forms.TextBox iPostalCode;
         private System.Windows.Forms.TextBox vAddress;
         private System.Windows.Forms.TextBox iContactNum;
-        private System.Windows.Forms.TextBox vDOB;
         private System.Windows.Forms.TextBox vNRIC;
         private System.Windows.Forms.TextBox sLastName;
         private System.Windows.Forms.TextBox sFirstName;
@@ -974,5 +975,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn staffEmailDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn staffDutyDataGridViewTextBoxColumn;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
